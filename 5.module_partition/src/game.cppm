@@ -8,5 +8,5 @@ export import :math;
 
 import std;
 export namespace game {
-constexpr std::string game_name{"LOL"};
+constexpr std::string_view game_name{"LOL"};
 }

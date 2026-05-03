@@ -30,6 +30,7 @@ target_sources(family PUBLIC
 target_sources(family PUBLIC
     src/parent.cpp
     src/children.cpp
+    src/bob.cpp
 )
 target_compile_features(family PUBLIC cxx_std_23)
 

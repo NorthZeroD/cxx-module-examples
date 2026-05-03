@@ -1,13 +1,9 @@
 export module mymod;
-
 import std;
 
 namespace mymod {
-
-std::string invisible_string{"HELLO FROM MYMOD!"};
-
+constexpr std::string_view invisible_string_view{"HELLO FROM MYMOD!"};
 export void print_hello() {
-    std::println("{}", invisible_string);
+    std::println("{}", invisible_string_view);
 }
-
 }  // namespace mymod
