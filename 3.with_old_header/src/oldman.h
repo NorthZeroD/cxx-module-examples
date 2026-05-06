@@ -3,7 +3,7 @@
 
 #include "stdio.h"
 
-inline void oldman__print_hello() {
+static inline void oldman__print_hello() {
     printf("I WROTE C FOR 30 YEARS...\n");
 };
 
