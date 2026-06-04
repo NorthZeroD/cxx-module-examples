@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 printf "========== clang++ ==========\n"; clang++ --version | head -n 1; \
     printf "========== g++ ==========\n"; g++ --version | head -n 1; \
